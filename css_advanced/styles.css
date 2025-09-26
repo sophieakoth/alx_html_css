@@ -141,6 +141,17 @@ h2{
 }
 
 
+#quotes{
+    display:flex;
+    background-color: blueviolet;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    height:400px;
+    gap: 30px;
+     
+}
+
 
 
 
