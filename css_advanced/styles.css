@@ -166,6 +166,7 @@ h2{
     flex-flow: row;
     padding-left: 20px; 
     padding-right: 20px;
+    
 }
 
 .Phillip {
@@ -187,6 +188,31 @@ h2{
     
 }
 
+
+#membership{
+    background-color:rgb(8, 8, 69) ;
+    color:white;
+}
+
+#free{
+    color: purple;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    border:2px solid white;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 250px;
+
+}
+
+#lorem{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
 
 
 
