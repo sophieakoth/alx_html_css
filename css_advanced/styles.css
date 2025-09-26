@@ -225,7 +225,16 @@ button{
 
 }
 
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
+#end{
+    background:rgb(8, 8, 69) ;
+}
 
 
 
