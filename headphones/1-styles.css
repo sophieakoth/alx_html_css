@@ -1,0 +1,131 @@
+/* Header */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root{
+    --LINKSHOVER:#FF6565;
+    --BUTTON-HOVER-OPACITY:0.9;
+}
+/* body{
+    max-width: 100px; 
+     margin: 0  auto; 
+} */
+
+    header{
+        background-image: url(immages/headphones_hero_1\(1\).jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+         /* min-height: 100vh;  */
+    
+    }
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 5em;
+
+} 
+
+ a{
+    text-decoration: none;
+    color:white;
+}
+a:hover,a:active{
+    color: var(--LINKSHOVER);
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+h1,p{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color:palevioletred ;
+    text-transform: capitalize;
+    display: block;
+    margin:50px auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+     display: grid;
+    place-content: center; 
+    border: none;
+    border-radius: 1000px;
+    padding:0.85em 4em;
+    font:inherit; 
+    font-weight: 600;
+}
+button:hover{
+    background-color:var(--LINKSHOVER);
+    opacity: 0.9;
+}
+.parah{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+    
+}
+
+.logo{
+    padding: 0.5rem;
+    margin-left: 5em;
+    text-transform: capitalize; 
+ }
+.partone{
+    margin-bottom: 20em;
+}
+
+.parttwo {
+    margin-top: 100px;
+}
+
+
+/* What we do */
+section .ipsum{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+  
+
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+  
+
+
+
