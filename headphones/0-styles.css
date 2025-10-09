@@ -96,89 +96,12 @@ button:hover{
  
 
 
-/* humberger menu */
 
-/* hide checkbox */
- #menu-toggle {
-    display: none;
-}
 
-.hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 2em;
-    cursor:pointer;
-    position: relative;
-}
+   
 
-.hamburger span{
-    display:block;
-    height: 3px;
-    width: 25px;
-    background-color:white;
-    border-radius: 2px;
-    transition: all 0.3s ease;
-    position: relative;
 
-} 
 
- /* mobile device */
-@media(max-width:768px){
-    .hamburger{
-        display: flex;
-    }
-
-    .nav-links{
-        display: none;
-       flex-direction: column;
-       background-color: #333;
-       position: absolute;
-       top:60px;
-       right: 0;
-       width: 200px;
-       padding: 1em;
-       z-index: 1000;
-        transition: all 0.3s ease;
-    }
-    
-    /* show menu when checkbox checked */
-    #menu-toggle:checked + .hamburger + .nav-links{
-        display:flex;
-    } 
-    /* animate hamburger to an X  */
-     #menu-toggle:checked + .hamburger span:nth-child(1){
-        transform: rotate(45deg);
-        top:8px; 
-    } 
-     #menu-toggle:checked + .hamburger span:nth-child(2) {
-        opacity: 0;
-      }
-
-      #menu-toggle:checked + .hamburger span:nth-child(3) {
-        transform: rotate(-45deg);
-        top: -8px;
-      } 
-
-      /* Prepare spans for animation */
-.hamburger {
-    position: relative;
-  }
-
- .hamburger span {
-    display: block;
-    height: 3px;
-    width: 25px;
-    background-color: white;
-    border-radius: 2px;
-    margin: 4px 0;
-    transition: all 0.3s ease;
-    position: relative;
-  } 
-
-}  
-  
-      
   
 
 
